@@ -64,7 +64,7 @@ docker run -e RUN_AS_ROOT=TRUE ... timhaak/plex
 or add it to an envfile that can be included through the command line:
 
 ```
-docker run --envfile=*filename* ... timhaak/plex
+docker run --env-file=*filename* ... timhaak/plex
 ```
 
 ## Mac and Apple TV Usage
